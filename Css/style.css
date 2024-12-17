@@ -733,7 +733,7 @@ body {
     position: relative;
     display: block;
     margin-top: 350px;
-    left: 70px;
+    left: 45px;
     /* transform: translateX(-70px); */
     flex-direction: row;
     overflow: hidden;
@@ -790,8 +790,11 @@ body {
 
 .contact .content {
     flex-basis: 70%;
+    
 }
-
+.contact .content form{
+    width: 800px;
+}
 .contact .content form .main-input {
     padding: 20px;
     display: block;
