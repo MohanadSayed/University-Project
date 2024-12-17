@@ -876,6 +876,493 @@ body {
     margin-bottom: 70px
 }
 
+/* End Contact Section  *//* Start Contact Section  */
+.contact {
+    background: url('../img/DesignsAi_color_matcher.png') center center/cover;
+    height: 150vh;
+    padding-top: var(--main-padding-top);
+    padding-bottom: var(--main-padding-bottom);
+}
+
+.contact .container {
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+.contact .container .content {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+@media (max-width: 768px)and (max-width: 992px) {
+    .contact .content {
+        flex-direction: column;
+    }
+
+    .contact .content form {
+        width: 400px;
+        margin: 0 auto;
+    }
+
+}
+
+.contact .content form {
+    flex-basis: 70%;
+    
+}
+.contact .content form .main-input {
+    padding: 20px;
+    display: block;
+    border: 1px solid #ccc;
+    margin-bottom: 30px;
+    width: 100%;
+    caret-color: green
+}
+
+.contact .content form .main-input:hover {
+    border-color: var(--main-color);
+    box-shadow: 0 5px 25px rgba(46, 194, 1, 0.601);
+    border-color: var(--main-color);
+}
+
+.contact .content form .main-input:focus {
+    outline: none;
+}
+
+.contact .content form textarea.main-input {
+    height: 200px;
+}
+
+.contact .content form input[type="submit"] {
+    background-color: var(--main-color);
+    color: white;
+    padding: 20px;
+    border: none;
+    display: flex;
+    margin: 0 auto;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.7s ease
+}
+
+.contact .content form input[type="submit"]:hover {
+    background-color: var(--secondary-color);
+}
+
+.contact .info {
+    flex-basis: 25%;
+}
+
+@media (max-width: 768px)and (max-width: 992px) {
+    .contact .content .info {
+        display: flex;
+        flex-direction: column;
+        order: -1;
+        justify-content: space-around;
+        margin-bottom: 30px;
+        width: fit-content;
+        margin: 0;
+    }
+
+    .contact .content .info div:nth-of-type(2) {
+        margin-top: 0;
+    }
+}
+
+.contact .info h4 {
+    color: var(--main-color);
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.contact .info .phone {
+    display: block;
+    color: black;
+    margin-bottom: 10px
+}
+
+.contact .info div:nth-of-type(2) {
+    margin-top: 100px;
+}
+
+.contact .info address {
+    color: black;
+    line-height: 2;
+    margin-bottom: 70px
+}
+
+/* End Contact Section  *//* Start Contact Section  */
+.contact {
+    background: url('../img/DesignsAi_color_matcher.png') center center/cover;
+    height: 150vh;
+    padding-top: var(--main-padding-top);
+    padding-bottom: var(--main-padding-bottom);
+}
+
+.contact .container {
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+.contact .container .content {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+@media (max-width: 768px)and (max-width: 992px) {
+    .contact .content {
+        flex-direction: column;
+    }
+
+    .contact .content form {
+        width: 400px;
+        margin: 0 auto;
+    }
+
+}
+
+.contact .content form {
+    flex-basis: 70%;
+    
+}
+.contact .content form .main-input {
+    padding: 20px;
+    display: block;
+    border: 1px solid #ccc;
+    margin-bottom: 30px;
+    width: 100%;
+    caret-color: green
+}
+
+.contact .content form .main-input:hover {
+    border-color: var(--main-color);
+    box-shadow: 0 5px 25px rgba(46, 194, 1, 0.601);
+    border-color: var(--main-color);
+}
+
+.contact .content form .main-input:focus {
+    outline: none;
+}
+
+.contact .content form textarea.main-input {
+    height: 200px;
+}
+
+.contact .content form input[type="submit"] {
+    background-color: var(--main-color);
+    color: white;
+    padding: 20px;
+    border: none;
+    display: flex;
+    margin: 0 auto;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.7s ease
+}
+
+.contact .content form input[type="submit"]:hover {
+    background-color: var(--secondary-color);
+}
+
+.contact .info {
+    flex-basis: 25%;
+}
+
+@media (max-width: 768px)and (max-width: 992px) {
+    .contact .content .info {
+        display: flex;
+        flex-direction: column;
+        order: -1;
+        justify-content: space-around;
+        margin-bottom: 30px;
+        width: fit-content;
+        margin: 0;
+    }
+
+    .contact .content .info div:nth-of-type(2) {
+        margin-top: 0;
+    }
+}
+
+.contact .info h4 {
+    color: var(--main-color);
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.contact .info .phone {
+    display: block;
+    color: black;
+    margin-bottom: 10px
+}
+
+.contact .info div:nth-of-type(2) {
+    margin-top: 100px;
+}
+
+.contact .info address {
+    color: black;
+    line-height: 2;
+    margin-bottom: 70px
+}
+
+/* End Contact Section  *//* Start Contact Section  */
+.contact {
+    background: url('../img/DesignsAi_color_matcher.png') center center/cover;
+    height: 150vh;
+    padding-top: var(--main-padding-top);
+    padding-bottom: var(--main-padding-bottom);
+}
+
+.contact .container {
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+.contact .container .content {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+@media (max-width: 768px)and (max-width: 992px) {
+    .contact .content {
+        flex-direction: column;
+    }
+
+    .contact .content form {
+        width: 400px;
+        margin: 0 auto;
+    }
+
+}
+
+.contact .content form {
+    flex-basis: 70%;
+    
+}
+.contact .content form .main-input {
+    padding: 20px;
+    display: block;
+    border: 1px solid #ccc;
+    margin-bottom: 30px;
+    width: 100%;
+    caret-color: green
+}
+
+.contact .content form .main-input:hover {
+    border-color: var(--main-color);
+    box-shadow: 0 5px 25px rgba(46, 194, 1, 0.601);
+    border-color: var(--main-color);
+}
+
+.contact .content form .main-input:focus {
+    outline: none;
+}
+
+.contact .content form textarea.main-input {
+    height: 200px;
+}
+
+.contact .content form input[type="submit"] {
+    background-color: var(--main-color);
+    color: white;
+    padding: 20px;
+    border: none;
+    display: flex;
+    margin: 0 auto;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.7s ease
+}
+
+.contact .content form input[type="submit"]:hover {
+    background-color: var(--secondary-color);
+}
+
+.contact .info {
+    flex-basis: 25%;
+}
+
+@media (max-width: 768px)and (max-width: 992px) {
+    .contact .content .info {
+        display: flex;
+        flex-direction: column;
+        order: -1;
+        justify-content: space-around;
+        margin-bottom: 30px;
+        width: fit-content;
+        margin: 0;
+    }
+
+    .contact .content .info div:nth-of-type(2) {
+        margin-top: 0;
+    }
+}
+
+.contact .info h4 {
+    color: var(--main-color);
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.contact .info .phone {
+    display: block;
+    color: black;
+    margin-bottom: 10px
+}
+
+.contact .info div:nth-of-type(2) {
+    margin-top: 100px;
+}
+
+.contact .info address {
+    color: black;
+    line-height: 2;
+    margin-bottom: 70px
+}
+
+/* End Contact Section  *//* Start Contact Section  */
+.contact {
+    background: url('../img/DesignsAi_color_matcher.png') center center/cover;
+    height: 150vh;
+    padding-top: var(--main-padding-top);
+    padding-bottom: var(--main-padding-bottom);
+}
+
+.contact .container {
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+.contact .container .content {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+@media (max-width: 768px)and (max-width: 992px) {
+    .contact .content {
+        flex-direction: column;
+    }
+
+    .contact .content form {
+        width: 400px;
+        margin: 0 auto;
+    }
+
+}
+
+.contact .content form {
+    flex-basis: 70%;
+}
+.contact .content form .main-input {
+    padding: 20px;
+    display: block;
+    border: 1px solid #ccc;
+    margin-bottom: 30px;
+    width: 100%;
+    caret-color: green
+}
+
+.contact .content form .main-input:hover {
+    border-color: var(--main-color);
+    box-shadow: 0 5px 25px rgba(46, 194, 1, 0.601);
+    border-color: var(--main-color);
+}
+
+.contact .content form .main-input:focus {
+    outline: none;
+}
+
+.contact .content form textarea.main-input {
+    height: 200px;
+}
+
+.contact .content form input[type="submit"] {
+    background-color: var(--main-color);
+    color: white;
+    padding: 20px;
+    border: none;
+    display: flex;
+    margin: 0 auto;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.7s ease
+}
+
+.contact .content form input[type="submit"]:hover {
+    background-color: var(--secondary-color);
+}
+
+.contact .info {
+    flex-basis: 25%;
+}
+
+@media (max-width: 768px)and (max-width: 992px) {
+    .contact .content .info {
+        display: flex;
+        flex-direction: column;
+        order: -1;
+        justify-content: space-around;
+        margin-bottom: 30px;
+        width: fit-content;
+        margin: 0;
+    }
+
+    .contact .content .info div:nth-of-type(2) {
+        margin-top: 0;
+    }
+}
+
+.contact .info h4 {
+    color: var(--main-color);
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.contact .info .phone {
+    display: block;
+    color: black;
+    margin-bottom: 10px
+}
+
+.contact .info div:nth-of-type(2) {
+    margin-top: 100px;
+}
+
+.contact .info address {
+    color: black;
+    line-height: 2;
+    margin-bottom: 70px
+}
+
 /* End Contact Section  */
 /* Start footer */
 .footer {
