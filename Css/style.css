@@ -309,7 +309,7 @@ body {
 
 @media (max-width: 768px)and (max-width: 992px) {
     .section_programs {
-        height: 250vh;
+        height: 300vh;
     }
 
     .program-grid1,
@@ -419,7 +419,7 @@ body {
 
 @media (max-width: 768px)and (max-width: 992px) {
     .section_campus {
-        height: 240vh;
+        height: 300vh;
     }
 
     .section_campus .container .text {
@@ -788,13 +788,11 @@ body {
 
 }
 
-.contact .content {
+.contact .content form {
     flex-basis: 70%;
     
 }
-.contact .content form{
-    width: 800px;
-}
+
 .contact .content form .main-input {
     padding: 20px;
     display: block;
